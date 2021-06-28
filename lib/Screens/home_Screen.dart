@@ -73,9 +73,10 @@ class _HomeScreenState extends State<HomeScreen> {
             sliverHeader(
               context,
               Icons.menu,
-              authData.currentUserData.isNotEmpty
-                  ? "Hey ${currentUserData["Name"]}!"
-                  : "Hey User!",
+              'Hey Shubham!',
+              // authData.currentUserData.isNotEmpty
+              //     ? "Hey ${currentUserData["Name"]}!"
+              //     : "Hey User!",
               drawerHandler,
             ),
             SliverList(
@@ -103,8 +104,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             itemBuilder: (BuildContext context, int index) {
                               return HorizontalListButton(
                                 text: titles[index],
-
-
                                 onPressed: () {
                                   Navigator.pushNamed(context, categories);
                                 },
@@ -183,8 +182,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           child: ThriftStoreDescriptionBox(
                             thriftDescription: "Become a thrifter NOW!",
                           ),
-
-                       
                           onPressed: () {
                             Navigator.pushNamed(
                               context,

@@ -44,16 +44,18 @@ class _DrawerScreenState extends State<DrawerScreen> {
                 CircleAvatar(
                   radius: 25,
                   foregroundImage: NetworkImage(
-                      'https://files.thehandbook.com/uploads/2014/10/Ed-Sheeran.jpg'),
+                      'https://media-exp3.licdn.com/dms/image/C4E03AQGKBm4sY3oivg/profile-displayphoto-shrink_400_400/0/1622804826344?e=1630540800&v=beta&t=TFcp405VNQw2h6eFM9gNiMQfyUTtXqlufOO2CiEflTk'),
                 ),
                 SizedBox(
                   width: 20.0,
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Name",
+                      'Shubham',
+                      // "Name",
                       style: kHeadingTextStyle.copyWith(
                         color: Colors.white,
                         fontSize: 40,
@@ -61,9 +63,10 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       textAlign: TextAlign.justify,
                     ),
                     Text(
-                      '@username',
+                      '@shubham123',
+                      // '@username',
                       style: kBodyTextStyle.copyWith(),
-                      textAlign: TextAlign.justify,
+                      textAlign: TextAlign.start,
                     ),
                   ],
                 )

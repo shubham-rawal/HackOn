@@ -201,7 +201,11 @@ class _AuthCardState extends State<AuthCard>
           child: Column(
             children: <Widget>[
               TextFormField(
-                decoration: InputDecoration(labelText: 'E-Mail'),
+                style: TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: 'E-Mail',
+                  labelStyle: TextStyle(color: Colors.white),
+                ),
                 keyboardType: TextInputType.emailAddress,
                 validator: (value) {
                   if (value.isEmpty || !value.contains('@')) {
@@ -214,7 +218,11 @@ class _AuthCardState extends State<AuthCard>
                 },
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Password'),
+                style: TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: 'Password',
+                  labelStyle: TextStyle(color: Colors.white),
+                ),
                 obscureText: true,
                 controller: _passwordController,
                 validator: (value) {
@@ -232,8 +240,12 @@ class _AuthCardState extends State<AuthCard>
                 child: FadeTransition(
                   opacity: _animationOpacity,
                   child: TextFormField(
+                    style: TextStyle(color: Colors.white),
                     enabled: _authMode == AuthMode.Signup,
-                    decoration: InputDecoration(labelText: 'Name'),
+                    decoration: InputDecoration(
+                      labelText: 'Name',
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
                     validator: (value) {
                       if (value.isEmpty) {
                         return 'Required!';

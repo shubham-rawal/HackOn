@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:thrifter_hackon/Screens/cart.dart';
+import 'package:thrifter_hackon/constants.dart';
 
 import 'package:thrifter_hackon/widgets/SliverHeader.dart';
 import 'package:thrifter_hackon/widgets/Buttons.dart';
@@ -18,7 +20,7 @@ class _WomenJeansState extends State<WomenJeans> {
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
-          sliverHeader(context,Icons.navigate_before, "\t\t\tJeans", () {
+          sliverHeader(context, Icons.navigate_before, "\t\t\tJeans", () {
             Navigator.pop(context);
           }),
           SliverList(
@@ -301,10 +303,6 @@ class _WomenJeansState extends State<WomenJeans> {
 //   }
 // }
 
-
-
-
-
 class ProductDetailSecond extends StatefulWidget {
   @override
   _ProductDetailSecondState createState() => _ProductDetailSecondState();
@@ -471,11 +469,17 @@ class _ProductDetailSecondState extends State<ProductDetailSecond> {
             ),
             SizedBox(height: mediaQuery.height * 0.03),
             Buttons(
+              onTap: () {
+                Navigator.pushNamed(context, shoppingcart);
+              },
               buttonText: "BUY NOW",
               textColor: Color.fromRGBO(0, 189, 189, 1),
               buttonColor: Color.fromRGBO(0, 189, 189, 0.2),
             ),
             Buttons(
+              onTap: () {
+                Navigator.pushNamed(context, shoppingcart);
+              },
               buttonText: "ADD TO CART",
               textColor: Colors.white,
               buttonColor: Color.fromRGBO(0, 189, 189, 1),

@@ -10,7 +10,7 @@ SliverAppBar sliverHeader(
       borderRadius: BorderRadius.only(
         bottomLeft: Radius.circular(50),
         bottomRight: Radius.circular(50),
-//        topLeft: Radius.circular(isDrawerOpen ? 80 : 0),
+        topLeft: Radius.circular(isDrawerOpen ? 80 : 0),
       ),
     ),
     leading: IconButton(
@@ -46,7 +46,7 @@ SliverAppBar sliverHeader(
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(20),
           bottomRight: Radius.circular(20),
-//          topLeft: Radius.circular(isDrawerOpen ? 30.0 : 0.0),
+          topLeft: Radius.circular(isDrawerOpen ? 30.0 : 0.0),
         ),
       ),
       child: FlexibleSpaceBar(

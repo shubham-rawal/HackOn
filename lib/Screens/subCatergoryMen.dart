@@ -329,8 +329,8 @@ class _ProductDetailState extends State<ProductDetail> {
                         begin: Alignment.centerLeft,
                         end: Alignment.centerRight,
                         colors: [
-                          Color.fromRGBO(158, 111, 255, 1),
-                          Color.fromRGBO(255, 136, 226, 1),
+                          Color(0xff693DC5),
+                          Color(0xffFF88E2),
                         ],
                       ),
                       borderRadius: BorderRadius.only(
@@ -346,6 +346,18 @@ class _ProductDetailState extends State<ProductDetail> {
                         fontWeight: FontWeight.w700,
                       ),
                     ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 30),
+                    child: IconButton(
+                        icon: Icon(
+                          Icons.navigate_before,
+                          color: Colors.white,
+                          size: 30,
+                        ),
+                        onPressed: () {
+                          Navigator.pop(context);
+                        }),
                   ),
                   Positioned(
                     top: 150.0,

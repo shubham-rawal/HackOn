@@ -13,19 +13,19 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   final List images = [
     "https://www.thoughtco.com/thmb/C7RiS4QG5TXcBG2d_Sh9i4hFpg0=/3620x2036/smart/filters:no_upscale()/close-up-of-clothes-hanging-in-row-739240657-5a78b11f8e1b6e003715c0ec.jpg",
-    "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1593123550394-AU3A29QJ3HU2BEE97O62/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIarJWwnumkapRz_nmTYj1dpaH2rx--_BA62nv3IYPJxMKMshLAGzx4R3EDFOm1kBS/American-Made-Clothing-American-Trench",
+    "https://www.incimages.com/uploaded_files/image/1920x1080/getty_507716250_226806.jpg",
     "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1596139091521-K8PDSWTUFK20VW0T7NFD/ke17ZwdGBToddI8pDm48kA7e4wRd4ZDldd6PbS9BVI5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvXn8XMwMq-aCqUEV8fAVtSaljtELrLyv8fOgO87iUSoS6gU-xB5T__qABPCYgFO0/Organic-Clothing-Brands-MATE-The-Label",
     "https://www.thoughtco.com/thmb/C7RiS4QG5TXcBG2d_Sh9i4hFpg0=/3620x2036/smart/filters:no_upscale()/close-up-of-clothes-hanging-in-row-739240657-5a78b11f8e1b6e003715c0ec.jpg",
-    "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1593123550394-AU3A29QJ3HU2BEE97O62/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIarJWwnumkapRz_nmTYj1dpaH2rx--_BA62nv3IYPJxMKMshLAGzx4R3EDFOm1kBS/American-Made-Clothing-American-Trench",
+    "https://www.incimages.com/uploaded_files/image/1920x1080/getty_507716250_226806.jpg",
     "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1596139091521-K8PDSWTUFK20VW0T7NFD/ke17ZwdGBToddI8pDm48kA7e4wRd4ZDldd6PbS9BVI5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvXn8XMwMq-aCqUEV8fAVtSaljtELrLyv8fOgO87iUSoS6gU-xB5T__qABPCYgFO0/Organic-Clothing-Brands-MATE-The-Label",
     "https://www.thoughtco.com/thmb/C7RiS4QG5TXcBG2d_Sh9i4hFpg0=/3620x2036/smart/filters:no_upscale()/close-up-of-clothes-hanging-in-row-739240657-5a78b11f8e1b6e003715c0ec.jpg",
-    "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1593123550394-AU3A29QJ3HU2BEE97O62/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIarJWwnumkapRz_nmTYj1dpaH2rx--_BA62nv3IYPJxMKMshLAGzx4R3EDFOm1kBS/American-Made-Clothing-American-Trench",
+    "https://www.incimages.com/uploaded_files/image/1920x1080/getty_507716250_226806.jpg",
     "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1596139091521-K8PDSWTUFK20VW0T7NFD/ke17ZwdGBToddI8pDm48kA7e4wRd4ZDldd6PbS9BVI5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvXn8XMwMq-aCqUEV8fAVtSaljtELrLyv8fOgO87iUSoS6gU-xB5T__qABPCYgFO0/Organic-Clothing-Brands-MATE-The-Label",
     "https://www.thoughtco.com/thmb/C7RiS4QG5TXcBG2d_Sh9i4hFpg0=/3620x2036/smart/filters:no_upscale()/close-up-of-clothes-hanging-in-row-739240657-5a78b11f8e1b6e003715c0ec.jpg",
-    "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1593123550394-AU3A29QJ3HU2BEE97O62/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIarJWwnumkapRz_nmTYj1dpaH2rx--_BA62nv3IYPJxMKMshLAGzx4R3EDFOm1kBS/American-Made-Clothing-American-Trench",
+    "https://www.incimages.com/uploaded_files/image/1920x1080/getty_507716250_226806.jpg",
     "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1596139091521-K8PDSWTUFK20VW0T7NFD/ke17ZwdGBToddI8pDm48kA7e4wRd4ZDldd6PbS9BVI5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvXn8XMwMq-aCqUEV8fAVtSaljtELrLyv8fOgO87iUSoS6gU-xB5T__qABPCYgFO0/Organic-Clothing-Brands-MATE-The-Label",
     "https://www.thoughtco.com/thmb/C7RiS4QG5TXcBG2d_Sh9i4hFpg0=/3620x2036/smart/filters:no_upscale()/close-up-of-clothes-hanging-in-row-739240657-5a78b11f8e1b6e003715c0ec.jpg",
-    "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1593123550394-AU3A29QJ3HU2BEE97O62/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIarJWwnumkapRz_nmTYj1dpaH2rx--_BA62nv3IYPJxMKMshLAGzx4R3EDFOm1kBS/American-Made-Clothing-American-Trench",
+    "https://www.incimages.com/uploaded_files/image/1920x1080/getty_507716250_226806.jpg",
     "https://images.squarespace-cdn.com/content/v1/5442b6cce4b0cf00d1a3bef2/1596139091521-K8PDSWTUFK20VW0T7NFD/ke17ZwdGBToddI8pDm48kA7e4wRd4ZDldd6PbS9BVI5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvXn8XMwMq-aCqUEV8fAVtSaljtELrLyv8fOgO87iUSoS6gU-xB5T__qABPCYgFO0/Organic-Clothing-Brands-MATE-The-Label",
   ];
 
@@ -80,8 +80,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
                 colors: [
-                  Color.fromRGBO(158, 111, 255, 1),
-                  Color.fromRGBO(255, 136, 226, 1),
+                  Color(0xff693DC5),
+                  Color(0xffFF88E2),
                 ],
               ),
             ),
@@ -133,7 +133,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           height: mediaQuery.height * 0.03,
                         ),
                         Text(
-                          "${authData.currentUserData["Name"]}",
+                          'Shubham',
+                          // "${authData.currentUserData["Name"]}",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 30,
@@ -142,7 +143,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           textAlign: TextAlign.justify,
                         ),
                         Text(
-                          "@${authData.currentUserData["closetName"]}",
+                          '@shubham123',
+                          // "@${authData.currentUserData["closetName"]}",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 20,
@@ -175,7 +177,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     child: CircleAvatar(
                       radius: 60.0,
                       foregroundImage: NetworkImage(
-                        'https://files.thehandbook.com/uploads/2014/10/Ed-Sheeran.jpg',
+                        'https://media-exp3.licdn.com/dms/image/C4E03AQGKBm4sY3oivg/profile-displayphoto-shrink_400_400/0/1622804826344?e=1630540800&v=beta&t=TFcp405VNQw2h6eFM9gNiMQfyUTtXqlufOO2CiEflTk',
                       ),
                     ),
                   ),

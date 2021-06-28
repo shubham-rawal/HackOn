@@ -76,7 +76,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                         child: Image.network(
                           args['productImageURL'][selectedPreviewImage],
                           fit: BoxFit.fill,
-                          height: mediaQuery.height*0.5,
+                          height: mediaQuery.height * 0.5,
                           width: mediaQuery.width * 0.75,
                           scale: 0.7,
                         ),
