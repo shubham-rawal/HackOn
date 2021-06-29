@@ -12,7 +12,7 @@ Through our app
 
 - Users, like you and me can upload clothes we wish to sell and others browse through the same. 
 
-### Features:
+### Features
 
 Currently in the app, we have following key features :
 - Simple and elegant UI
@@ -20,4 +20,9 @@ Currently in the app, we have following key features :
 - Search through existing closets or create your own closet
 - They can search based on categories of clothing and gender 
 
+## App Demo:
+
+
+
+https://user-images.githubusercontent.com/56134221/123774243-db697300-d8ea-11eb-9f80-f650e1c6e511.mp4
 
