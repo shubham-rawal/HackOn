@@ -1,9 +1,9 @@
 # HackOn2.0
 
-### Our Problem : 
+### The Problem : 
 The fashion industry has a disastrous impact on the environment. In fact, it is the second largest polluter in the world, just after the oil industry. And the environmental damage is increasing as the industry grows. The workers who make our beautiful jeans work under appalling and hideous conditions, and many of those clothes are rejected due to small defects, and ultimately end up in landfills, polluting the environment, And it doesn't even decompose easily and takes long time. 
 
-### Our Dream :
+### Our Solution :
 Our team has built an app especially for this need. The concept of thrifting and closet clearance is slowing becoming a part of our lives. It is quite a popular concept in major first world countries, and Depop website to sell their clothes online. 
 Our app is an e-commerce platform, but for selling rejected or vintage clothes, as well as re-sell clothes from our closet.
  
